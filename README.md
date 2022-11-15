@@ -1,9 +1,9 @@
-# Cifrado César
+# Comunidad de adolescentes
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
+* [2. objetivos](#2-objetivos)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -14,14 +14,13 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Resumen del proyecto
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+Esta comunidad trata de mantener la información segura de las adolescentes utilizando en esta página
+El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) Brindamos información útil y pertinente 
+para todas aquellas personas que han vivido violencia sexual, tomando en cuenta su proceso de sanación y recuperación, por esta razon se ha creado un sitio que codifique sus mensajes.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original

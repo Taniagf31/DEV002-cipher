@@ -52,11 +52,29 @@ h4 {
 
 }
 
-div {
+.desplazamiento{
 
 
-  color: #624F82;
+  color: #9F73AB;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+.container-inputs{
+  display: flex;
   justify-content: center;
   align-items: center;
 
 }
+.container-code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ .btnenviar{
+  font-family: Arial, Helvetica, sans-serif;
+  border: #FF8FB1;
+ }
+
