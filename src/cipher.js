@@ -36,21 +36,21 @@ const cipher = {
     console.log(offset, text);
 
     for (let i = 0; i < text.length; i++) {
-      let decodificar = mensaje.charCodeAt(i); //estoy sacando el codigo ASCII
+      let decodificar = StringFromCharCode(i); //estoy sacando el codigo ASCII
       textoAscii.push(decodificar);
       if (textoAscii[i] === 32) {
         let x1 = 32;
-        decodeTextoAscii.push(x1)
+       decodeTextoAscii.push(x1)
+
       } else {
         let x1 = ((textoAscii[i] - 65 + offset) % 26) + 65;
         decodeTextoAscii.push(x1);
 
+
+        let respuesta = String.fromCharCode(decodeTextoAscii[i]);
+        ciphertext.push(respuesta)
+
       }
-
-      let respuesta = String.fromCharCode(decodeTextoAscii[i]);
-      ciphertext.push(respuesta)
-
-
 
 
 
@@ -102,13 +102,13 @@ const cipher = {
 
 
 
-  // console.log(i);
-  // console.log(codeAscii);
-  //let textCode = codeAscii + offset
-  //console.log(textCode)
-  // if (codeAscii > 0) {
-  // textoAscii.push(String.fromCharCode(textCode));
-  //btncifrar.push(String.fromCharCode(codeAscii));
+// console.log(i);
+// console.log(codeAscii);
+//let textCode = codeAscii + offset
+//console.log(textCode)
+// if (codeAscii > 0) {
+// textoAscii.push(String.fromCharCode(textCode));
+//btncifrar.push(String.fromCharCode(codeAscii));
 
 
 

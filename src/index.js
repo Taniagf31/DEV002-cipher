@@ -22,13 +22,13 @@ btncifrar.addEventListener("click", function () {
 })
 
 decodificar.addEventListener("click", function () {
-    // cipher.textDecode(text, offset)
+    cipher.textDecode(offset, text)
     let textDecode = mensaje.value;
     const decodeText = cipher.decode(textDecode);
     console.log(decodeText);
     console.log(textdecode);
     msjcifrado.value = "";
-    
+
 
 })
 
