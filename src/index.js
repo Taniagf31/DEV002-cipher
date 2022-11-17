@@ -10,7 +10,7 @@ btncifrar.addEventListener("click", function () {
 
     let text = mensaje.value;
     let offset = parseInt(desplazamiento.value);
-    const encodeText = cipher.encode(text, offset);
+    const encodeText = cipher.encode(offset, text);
     msjcifrado.value = encodeText;
     mensaje.value = "";
 
@@ -19,7 +19,7 @@ decodificar.addEventListener("click", function () {
 
     let text = msjcifrado.value;
     let offset = parseInt(desplazamiento.value);
-    const decodeText = cipher.decode(text, offset); 
+    const decodeText = cipher.decode(offset, text); 
     mensaje.value = decodeText;
     // mensaje.value = "";
 
